@@ -10,9 +10,9 @@ function App() {
         <Router>
             <NavBar />
             <Routes>
-                <Route path="/datenplattform/" element={<HomePage />} />
-                <Route path="/datenplattform/bar" element={<BarChartPage />} />
-                <Route path="/datenplattform/pyramid" element={<PyramidChartPage />} />
+                <Route path="/" element={<HomePage />} />
+                <Route path="/bar" element={<BarChartPage />} />
+                <Route path="/pyramid" element={<PyramidChartPage />} />
             </Routes>
         </Router>
     );
