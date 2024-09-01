@@ -1,0 +1,53 @@
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 15px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-text h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 1em;
+    color: #777;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.menu a:hover {
+    color: #007BFF; /* Синий цвет для hover */
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
