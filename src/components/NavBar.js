@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
@@ -20,6 +20,7 @@ function NavBar() {
                 <Link to="/">Startseite</Link>
                 <Link to="/bar">Balkendiagramm</Link>
                 <Link to="/pyramid">Bevölkerungspyramide</Link>
+                <Link to="/statistik">Statistik</Link>
             </div>
         </nav>
     );
